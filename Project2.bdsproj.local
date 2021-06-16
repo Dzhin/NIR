@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2017.02.22 23:37:14.385.cpp,C:\Users\Ярослав\Documents\Borland Studio Projects\Unit1.cpp=C:\Users\Ярослав\Desktop\DOE1\Unit1.cpp</Transaction>
+    <Transaction>2017.02.22 23:37:14.385.h,C:\Users\Ярослав\Documents\Borland Studio Projects\Unit1.h=C:\Users\Ярослав\Desktop\DOE1\Unit1.h</Transaction>
+    <Transaction>2017.02.22 23:37:14.385.dfm,C:\Users\Ярослав\Documents\Borland Studio Projects\Unit1.dfm=C:\Users\Ярослав\Desktop\DOE1\Unit1.dfm</Transaction>
+    <Transaction>2017.02.22 23:40:50.494.cpp,C:\Users\Ярослав\Desktop\DOE1\Unit1.cpp=C:\Users\Ярослав\Documents\Borland Studio Projects\NIR\FFT\Forma.cpp</Transaction>
+    <Transaction>2017.02.22 23:40:50.494.h,C:\Users\Ярослав\Desktop\DOE1\Unit1.h=C:\Users\Ярослав\Documents\Borland Studio Projects\NIR\FFT\Forma.h</Transaction>
+    <Transaction>2017.02.22 23:40:50.494.dfm,C:\Users\Ярослав\Desktop\DOE1\Unit1.dfm=C:\Users\Ярослав\Documents\Borland Studio Projects\NIR\FFT\Forma.dfm</Transaction>
+    <Transaction>2017.02.22 23:50:28.062.bdsproj,C:\Users\Ярослав\Documents\Borland Studio Projects\Project2.bdsproj=C:\Users\Ярослав\Documents\Borland Studio Projects\NIR\FFT\Project2.bdsproj</Transaction>
+    <Transaction>2017.02.24 16:57:11.852.cpp,C:\Users\Ярослав\Documents\Borland Studio Projects\NIR\FFT\Unit1.cpp=C:\Users\Ярослав\Documents\Borland Studio Projects\NIR\FFT\Function.cpp</Transaction>
+    <Transaction>2017.02.24 16:57:11.862.h,C:\Users\Ярослав\Documents\Borland Studio Projects\NIR\FFT\Unit1.h=C:\Users\Ярослав\Documents\Borland Studio Projects\NIR\FFT\Function.h</Transaction>
+    <Transaction>2017.02.24 17:40:08.810.cpp,C:\Users\Ярослав\Documents\Borland Studio Projects\NIR\FFT\Function.cpp=</Transaction>
+    <Transaction>2017.02.24 17:50:26.154.bdsproj,C:\Users\Ярослав\Documents\Borland Studio Projects\NIR\FFT\Project2.bdsproj=D:\Yar\FFT\Project2.bdsproj</Transaction>
+    <Transaction>2017.02.24 17:50:47.951.cpp,C:\Users\Ярослав\Documents\Borland Studio Projects\NIR\FFT\Forma.cpp=D:\Yar\FFT\Forma.cpp</Transaction>
+    <Transaction>2017.02.24 17:50:47.952.h,C:\Users\Ярослав\Documents\Borland Studio Projects\NIR\FFT\Forma.h=D:\Yar\FFT\Forma.h</Transaction>
+    <Transaction>2017.02.24 17:50:47.952.dfm,C:\Users\Ярослав\Documents\Borland Studio Projects\NIR\FFT\Forma.dfm=D:\Yar\FFT\Forma.dfm</Transaction>
+    <Transaction>2017.02.24 18:01:02.235.bdsproj,D:\Yar\FFT\Project2.bdsproj=D:\Yar\FFT\Project2.bdsproj</Transaction>
+    <Transaction>2017.02.24 18:01:28.411.bdsproj,D:\Yar\FFT\Project2.bdsproj=D:\Yar\FFT\Project2.bdsproj</Transaction>
+    <Transaction>2017.02.24 18:42:28.035.bdsproj,D:\Yar\FFT\Project2.bdsproj=D:\Yar\FFT\Project2.bdsproj</Transaction>
+    <Transaction>2017.04.25 21:37:24.338.cpp,D:\Yar\FFT\Unit8.cpp=D:\Yar\FFT\Translate.cpp</Transaction>
+    <Transaction>2017.04.25 21:37:24.362.h,D:\Yar\FFT\Unit8.h=D:\Yar\FFT\Translate.h</Transaction>
+    <Transaction>2017.05.17 22:07:21.397.cpp,D:\Yar\FFT\Unit8.cpp=D:\Yar\FFT\ForMenyu1.cpp</Transaction>
+    <Transaction>2017.05.17 22:07:21.435.h,D:\Yar\FFT\Unit8.h=D:\Yar\FFT\ForMenyu1.h</Transaction>
+    <Transaction>2017.05.17 22:07:21.435.dfm,D:\Yar\FFT\Unit8.dfm=D:\Yar\FFT\ForMenyu1.dfm</Transaction>
+    <Transaction>2017.07.08 18:59:58.380.cpp,D:\Yar\FFT\Unit8.cpp=D:\Yar\FFT\PolinomCernike.cpp</Transaction>
+    <Transaction>2017.07.08 18:59:58.421.h,D:\Yar\FFT\Unit8.h=D:\Yar\FFT\PolinomCernike.h</Transaction>
+    <Transaction>2018.04.10 00:26:53.934.cpp,C:\Yarik\НИР\Версии научки\current\Unit8.cpp=C:\Yarik\НИР\Версии научки\current\Libraly.cpp</Transaction>
+    <Transaction>2018.04.10 00:26:53.945.h,C:\Yarik\НИР\Версии научки\current\Unit8.h=C:\Yarik\НИР\Версии научки\current\Libraly.h</Transaction>
+    <Transaction>2019.03.31 17:37:01.145.cpp,E:\Универ\НИР\Graduate work\19.04.2018\Unit10.cpp=E:\Универ\НИР\Graduate work\19.04.2018\FormForGrafics.cpp</Transaction>
+    <Transaction>2019.03.31 17:37:01.145.h,E:\Универ\НИР\Graduate work\19.04.2018\Unit10.h=E:\Универ\НИР\Graduate work\19.04.2018\FormForGrafics.h</Transaction>
+    <Transaction>2019.03.31 17:37:01.145.dfm,E:\Универ\НИР\Graduate work\19.04.2018\Unit10.dfm=E:\Универ\НИР\Graduate work\19.04.2018\FormForGrafics.dfm</Transaction>
+    <Transaction>2019.10.16 16:20:35.668.cpp,D:\Papka Yarika\Nir\18.04.2019\Unit8.cpp=D:\Papka Yarika\Nir\18.04.2019\CountPoint.cpp</Transaction>
+    <Transaction>2019.10.16 16:20:35.684.h,D:\Papka Yarika\Nir\18.04.2019\Unit8.h=D:\Papka Yarika\Nir\18.04.2019\CountPoint.h</Transaction>
+    <Transaction>2020.02.06 19:56:58.839.cpp,C:\Users\Сергей\Универ\НИР\18.04.2019\Unit10.cpp=C:\Users\Сергей\Универ\НИР\18.04.2019\ParametersLightSourse.cpp</Transaction>
+    <Transaction>2020.02.06 19:56:58.839.h,C:\Users\Сергей\Универ\НИР\18.04.2019\Unit10.h=C:\Users\Сергей\Универ\НИР\18.04.2019\ParametersLightSourse.h</Transaction>
+    <Transaction>2020.02.06 19:56:58.839.dfm,C:\Users\Сергей\Универ\НИР\18.04.2019\Unit10.dfm=C:\Users\Сергей\Универ\НИР\18.04.2019\ParametersLightSourse.dfm</Transaction>
+    <Transaction>2020.02.08 17:18:06.063.cpp,C:\Users\Сергей\Универ\НИР\18.04.2019\Unit10.cpp=C:\Users\Сергей\Универ\НИР\18.04.2019\ParametersFilter.cpp</Transaction>
+    <Transaction>2020.02.08 17:18:06.063.h,C:\Users\Сергей\Универ\НИР\18.04.2019\Unit10.h=C:\Users\Сергей\Универ\НИР\18.04.2019\ParametersFilter.h</Transaction>
+    <Transaction>2020.02.08 17:18:06.063.dfm,C:\Users\Сергей\Универ\НИР\18.04.2019\Unit10.dfm=C:\Users\Сергей\Универ\НИР\18.04.2019\ParametersFilter.dfm</Transaction>
+  </Transactions>
+</BorlandProject>

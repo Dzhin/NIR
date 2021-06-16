@@ -1,0 +1,270 @@
+object Form1: TForm1
+  Left = 87
+  Top = 117
+  Width = 768
+  Height = 598
+  Caption = 'DOE_SLM'
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  Menu = MainMenu1
+  OldCreateOrder = False
+  Visible = True
+  WindowMenu = Afqk1
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Image1: TImage
+    Left = 8
+    Top = 56
+    Width = 512
+    Height = 512
+  end
+  object Image2: TImage
+    Left = 536
+    Top = 56
+    Width = 256
+    Height = 256
+  end
+  object Image3: TImage
+    Left = 752
+    Top = 312
+    Width = 256
+    Height = 256
+  end
+  object Panel1: TPanel
+    Left = 8
+    Top = 8
+    Width = 1001
+    Height = 41
+    TabOrder = 0
+    object SpeedButton1: TSpeedButton
+      Left = 8
+      Top = 8
+      Width = 23
+      Height = 22
+      Glyph.Data = {
+        76020000424D7602000000000000760000002800000020000000200000000100
+        0400000000000002000000000000000000001000000000000000000000000000
+        8000008000000080800080000000800080008080000080808000C0C0C0000000
+        FF0000FF000000FFFF00FF000000FF00FF00FFFF0000FFFFFF00FFFFFFFFFFFF
+        FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+        FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+        FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+        FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+        FFFFFFFFFFFFFFFFFFFFFFFFFFFFDDFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFDDFF
+        FFFFFFFFFFFFFFFFFFFFFFFFFFFFDDFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFDDFF
+        FFFFFFFFFFFFFFFFFFFFFFFFFFFFDDFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFDDFF
+        FFFFFFFFFFFFFFFFFFFFFFFFFFFFDDFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFDDDD
+        DDDDDFFFFFFFFFFFFFFFFFFFFFFFDDDDDDDDDFFFFFFFFFFFFFFFFFFFFFFFDDFF
+        FFFFFFFFFFFFFFFFFFFFFFFFFFFFDDFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFDDFF
+        FFFFFFFFFFFFFFFFFFFFFFFFFFFFDDFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFDDDD
+        DDDDDDFFFFFFFFFFFFFFFFFFFFFFDDDDDDDDDDFFFFFFFFFFFFFFFFFFFFFFFFFF
+        FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+        FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+        FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+        FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF}
+    end
+    object SpeedButton2: TSpeedButton
+      Left = 40
+      Top = 8
+      Width = 23
+      Height = 22
+      Glyph.Data = {
+        76020000424D7602000000000000760000002800000020000000200000000100
+        0400000000000002000000000000000000001000000000000000000000000000
+        8000008000000080800080000000800080008080000080808000C0C0C0000000
+        FF0000FF000000FFFF00FF000000FF00FF00FFFF0000FFFFFF00FFFFFFFFFFFF
+        FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+        FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+        FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+        FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+        FFFFFFFFFFFFFFFFFFFFFFFFFFDDFFFFFFFFFFDDFFFFFFFFFFFFFFFFFFDDFFFF
+        FFFFFFDDFFFFFFFFFFFFFFFFFFDDFFFFFFFFFFDDFFFFFFFFFFFFFFFFFFDDFFFF
+        FFFFFFDDFFFFFFFFFFFFFFFFFFDDFFFFFFFFFFDDFFFFFFFFFFFFFFFFFFDDFFFF
+        FFFFFFDDFFFFFFFFFFFFFFFFFFDDFFFFFFFFFFDDFFFFFFFFFFFFFFFFFFDDDDDD
+        DDDFFFDDFFFFFFFFFFFFFFFFFFDDDDDDDDDFFFDD8FFFFFFFFFFFFFFFFFDDFFFF
+        FFFFFFDD8DDFFFFFFFFFFFFFFFDDFFFFFFFFFFDDFDD8FFFFFFFFFFFFFFDDFFFF
+        FFFFFFFFFFFFFFFFFFFFFFFFFFDDFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFDDDDDD
+        DDDDFFFFFFFFFFFFFFFFFFFFFFDDDDDDDDDDFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+        FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+        FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+        FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+        FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF}
+    end
+    object SpeedButton3: TSpeedButton
+      Left = 72
+      Top = 8
+      Width = 23
+      Height = 22
+      Glyph.Data = {
+        76020000424D7602000000000000760000002800000020000000200000000100
+        0400000000000002000000000000000000001000000000000000000000000000
+        8000008000000080800080000000800080008080000080808000C0C0C0000000
+        FF0000FF000000FFFF00FF000000FF00FF00FFFF0000FFFFFF00FFFFFFFFFFFF
+        FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+        FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+        FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+        FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+        FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD
+        DFFFFFFFDDFFFFFFFFFFFFFFFFFFFFFDDFFFFFF8D8FFFFFFFFFFFFFFFFFFFFFD
+        DFFFFFFDDFFFFFFFFFFFFFFFFFFFFFFDDFFFFFDDFFFFFFFFFFFFFFFFFFFFFFFD
+        DFFFFDD8FFFFFFFFFFFFFFFFFFFFFFFDDFFF8DDFFFFFFFFFFFFFFFFFFFFFFFFD
+        DDF8DDFFFFFFFFFFFFFFFFFFFFFFFFFDDDDDDFFFFFFFFFFFFFFFFFFFFFFFFFFD
+        DFDD8FFFFFFFFFFFFFFFFFFFFFFFFFFDDFFDDFFFFFFFFFFFFFFFFFFFFFFFFFFD
+        DFF8DDFFFFFFFFFFFFFFFFFFFFFFFFFDDFFF8D8FFFFFFFFFFFFFFFFFFFFFFFFD
+        DFFFFDD8FFFFFFFFFFFFFFFFFFFFFFFDDFFFFFDDFFFFFFFFFFFFFFFFFFFFFFFD
+        DFFFFFFDDFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+        FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+        FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+        FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF}
+    end
+  end
+  object MainMenu1: TMainMenu
+    Left = 8
+    Top = 392
+    object Afqk1: TMenuItem
+      Caption = 'Файл'
+      object N2: TMenuItem
+        Caption = 'Открыть'
+        OnClick = N2Click
+      end
+      object N3: TMenuItem
+        Caption = 'Сохранить как'
+        OnClick = N3Click
+      end
+      object N1: TMenuItem
+        Caption = 'Сохранить интенсивность'
+        OnClick = N1Click
+      end
+      object N19: TMenuItem
+        Caption = 'Сохранить амплитуду'
+        OnClick = N19Click
+      end
+      object N20: TMenuItem
+        Caption = 'Сохранить фазу'
+        OnClick = N20Click
+      end
+      object N21: TMenuItem
+        Caption = 'Выход'
+      end
+    end
+    object N4: TMenuItem
+      Caption = 'Создать ДОЭ'
+      object N5: TMenuItem
+        Caption = 'Дифракционная линза'
+      end
+      object N6: TMenuItem
+        Caption = 'Многоуровневый аксикон'
+      end
+      object N7: TMenuItem
+        Caption = 'Фазовый винт'
+        OnClick = N7Click
+      end
+      object N8: TMenuItem
+        Caption = 'Гипергеометрический ДОЭ'
+        OnClick = N8Click
+      end
+      object N23: TMenuItem
+        Caption = 'Создать из ряда'
+        OnClick = N23Click
+      end
+      object N24: TMenuItem
+        Caption = 'Моды Эрмита'
+        OnClick = N24Click
+      end
+      object N25: TMenuItem
+        Caption = 'Фокусатор'
+        OnClick = N25Click
+      end
+      object Ajrecfnjh11: TMenuItem
+        Caption = 'Фокусатор1'
+        OnClick = Ajrecfnjh11Click
+      end
+      object N26: TMenuItem
+        Caption = 'Фокусатор2'
+        OnClick = N26Click
+      end
+      object N30: TMenuItem
+        Caption = 'Винтовой аксикон'
+        OnClick = N30Click
+      end
+      object N31: TMenuItem
+        Caption = 'Модифицированный винт'
+        OnClick = N31Click
+      end
+    end
+    object N9: TMenuItem
+      Caption = 'Моделирование'
+      object N10: TMenuItem
+        Caption = 'Преобразование Фурье'
+        OnClick = N10Click
+      end
+      object N11: TMenuItem
+        Caption = 'Преобразование Френеля'
+        OnClick = N11Click
+      end
+      object N12: TMenuItem
+        Caption = 'Итеграл Кирхгофа'
+        OnClick = N12Click
+      end
+    end
+    object N13: TMenuItem
+      Caption = 'Измерение'
+      object N14: TMenuItem
+        Caption = 'Сечение'
+        OnClick = N14Click
+      end
+      object N15: TMenuItem
+        Caption = 'Вытягивание'
+      end
+      object N22: TMenuItem
+        Caption = 'Сравнение сечений'
+        OnClick = N22Click
+      end
+      object N27: TMenuItem
+        Caption = 'Корреляция'
+        OnClick = N27Click
+      end
+    end
+    object N16: TMenuItem
+      Caption = 'Параметры'
+      object N17: TMenuItem
+        Caption = 'Параметры ДОЭ'
+        OnClick = N17Click
+      end
+      object N18: TMenuItem
+        Caption = 'Параметры модификации'
+        OnClick = N18Click
+      end
+    end
+    object N28: TMenuItem
+      Caption = 'Модификация'
+      object N29: TMenuItem
+        Caption = 'Добавить линзу'
+        OnClick = N29Click
+      end
+      object N32: TMenuItem
+        Caption = 'Кодировать'
+        OnClick = N32Click
+      end
+      object N33: TMenuItem
+        Caption = 'Квантовать'
+        OnClick = N33Click
+      end
+    end
+  end
+  object OpenDialog1: TOpenDialog
+    DefaultExt = 'bmp'
+    Filter = 'Изображение|*.bmp'
+    InitialDir = '.'
+    Left = 8
+    Top = 432
+  end
+  object SaveDialog1: TSaveDialog
+    Left = 8
+    Top = 472
+  end
+end

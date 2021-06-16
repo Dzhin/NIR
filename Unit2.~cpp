@@ -1,0 +1,58 @@
+//---------------------------------------------------------------------------
+
+#include <vcl.h>
+#pragma hdrstop
+
+#include "Unit2.h"
+//---------------------------------------------------------------------------
+#pragma package(smart_init)
+#pragma link "CSPIN"
+#pragma resource "*.dfm"
+TForm2 *Form2;
+//---------------------------------------------------------------------------
+__fastcall TForm2::TForm2(TComponent* Owner)
+        : TForm(Owner)
+{
+ CSpinEdit4->Value = StrToInt(Form2->CSpinEdit10->Value)-1;
+ CSpinEdit2->Value = (StrToInt(Form2->CSpinEdit10->Value)/2);
+}
+//---------------------------------------------------------------------------
+void __fastcall TForm2::CSpinEdit5Change(TObject *Sender)
+{
+ CSpinEdit5->Increment = CSpinEdit5->Value;
+}
+//---------------------------------------------------------------------------
+
+void __fastcall TForm2::CSpinEdit10Change(TObject *Sender)
+{
+ CSpinEdit10->Increment = CSpinEdit10->Value;
+ if(CSpinEdit10->Value==CSpinEdit10->MaxValue)
+    CSpinEdit10->Increment = CSpinEdit10->Value/2;
+}
+//---------------------------------------------------------------------------
+
+
+void __fastcall TForm2::CSpinEdit10KeyUp(TObject *Sender, WORD &Key,
+      TShiftState Shift)
+{
+// CSpinEdit10->Increment = CSpinEdit10->Value;
+}
+//---------------------------------------------------------------------------
+
+void __fastcall TForm2::CSpinEdit10KeyDown(TObject *Sender, WORD &Key,
+      TShiftState Shift)
+{
+// CSpinEdit10->Increment = CSpinEdit10->Value/2;
+}
+//---------------------------------------------------------------------------
+
+
+
+void __fastcall TForm2::CSpinEdit10Click(TObject *Sender)
+{
+/* CSpinEdit10->Increment = CSpinEdit10->Value;
+ if(CSpinEdit10->Value==CSpinEdit10->MaxValue)
+    CSpinEdit10->Increment = CSpinEdit10->Value/2;*/
+}
+//---------------------------------------------------------------------------
+

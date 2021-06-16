@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2008.03.03 20:04:13.578.cpp,E:\F\SK\DOE\Unit2.cpp=</Transaction>
+    <Transaction>2008.03.03 20:04:13.578.dfm,E:\F\SK\DOE\Unit2.dfm=</Transaction>
+    <Transaction>2008.03.03 20:24:41.390.cpp,E:\F\SK\DOE\Unit6.cpp=E:\F\SK\DOE\Unit2.cpp</Transaction>
+    <Transaction>2008.03.03 20:24:41.390.h,E:\F\SK\DOE\Unit6.h=E:\F\SK\DOE\Unit2.h</Transaction>
+    <Transaction>2008.03.03 20:24:41.390.dfm,E:\F\SK\DOE\Unit6.dfm=E:\F\SK\DOE\Unit2.dfm</Transaction>
+    <Transaction>2012.09.05 09:14:41.203.cpp,C:\D\Users\Sk\DOE1\Unit6.cpp=</Transaction>
+    <Transaction>2012.09.05 09:14:41.203.dfm,C:\D\Users\Sk\DOE1\Unit6.dfm=</Transaction>
+  </Transactions>
+</BorlandProject>
